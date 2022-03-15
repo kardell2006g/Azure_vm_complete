@@ -1,5 +1,5 @@
 # Azure_vm_complete
-This Plan will create a complete Azure environment including VPC, network, VM, public IP and PPK key required to SSH to the Azure VM.
+This Terraform Plan will create a complete Azure environment including VPC, network, VM, public IP and PPK key required to SSH to the Azure VM.
 
 *Note: Azureuser is username.*
 
@@ -20,3 +20,24 @@ Variables required below to execute Plan.
 | location                    | {azure region}  | terraform  |
 | owner                       | {owner Name}    | terraform  |
 | rg                          | {resource group}| terraform  |
+
+
+
+-------------------------------------------------------------
+#
+# Create a backend
+
+Include a backend file to use Terraform Cloud. (backend.tf)
+
+```
+terraform {
+  cloud {
+    organization = ""
+
+    workspaces {
+      name = ""
+    }
+  }
+}
+
+```
