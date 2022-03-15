@@ -5,6 +5,7 @@ This Terraform Plan will create a complete Azure environment including VPC, netw
 
 *In order to get the PPK.key run "terraform output -raw tls_private_key >> filename.ppk" in the CLI on the outputted state.**
 
+*In order to display the public IP Address run **'Terraform Refresh'** when apply completes. *
 
 Variables required below to execute Plan.
 
