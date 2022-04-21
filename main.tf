@@ -3,7 +3,7 @@ terraform {
   required_providers {
     azurerm = {
       source = "hashicorp/azurerm"
-      version = "~>2.2"
+      version = "~>2.0"
     }
   }
 }
@@ -108,7 +108,7 @@ resource "random_id" "randomId" {
         resource_group = azurerm_resource_group.myterraformgroup.name
     }
 
-    byte_length = 8
+    byte_length = 9
 }
 
 # Create storage account for boot diagnostics
