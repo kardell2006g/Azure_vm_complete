@@ -108,7 +108,7 @@ resource "random_id" "randomId" {
         resource_group = azurerm_resource_group.myterraformgroup.name
     }
 
-    byte_length = 9
+    byte_length = 8
 }
 
 # Create storage account for boot diagnostics
