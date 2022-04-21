@@ -184,3 +184,6 @@ resource "azurerm_linux_virtual_machine" "myterraformvm" {
         environment = var.environment
     }
 }
+
+
+#####
