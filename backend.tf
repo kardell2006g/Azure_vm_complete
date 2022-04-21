@@ -5,7 +5,7 @@ terraform {
     organization = "gekk0"
 
     workspaces {
-      name = "azure_vm_complete_vcs"
+      name = "azure_vm_complete_app"
     }
   }
 }
