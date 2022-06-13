@@ -1,5 +1,5 @@
 # Azure_vm_complete
-This Terraform Plan will create a complete Azure environment including VPC, network, VM, public IP and PPK key required to SSH to the Azure VM.
+This Terraform Plan will create a complete Azure environment including VNet, network subnets, VM, public IP and PPK key required to SSH to the Azure VM.
 
 *Note: Azureuser is username.*
 
