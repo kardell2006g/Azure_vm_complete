@@ -143,7 +143,7 @@ data "azurerm_public_ip" "myterraformpublicip" {
 
 output "public_ip_address" {
   value = data.azurerm_public_ip.myterraformpublicip.ip_address
-  #sensitive = true
+  sensitive = true
 }
 
 
